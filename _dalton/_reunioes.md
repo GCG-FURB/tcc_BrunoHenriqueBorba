@@ -1,4 +1,7 @@
+# Anotações da reuniões
+
 ## 2021-01-21
+
 .. escreveu por e-mail ..
 Boa noite professor, tudo bem?
 
@@ -11,8 +14,8 @@ Podemos marcar algo para alinhar esses pontos?
 Agradeço desde já!
 Att, Bruno
 
-------------
 ## 2021-02-25
+
 Respondi a msg e-mail para conversar sobre orientação de TCC.
 
 ------------
