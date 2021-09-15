@@ -52,3 +52,4 @@ Poderias usar como base o TCC acima.
 
 Estava com dificuldades para entender como usar o Buffer de Profundidade.  
 Fiz a figura para tentar entender sua dúvida.  
+![VisaoGeral](VisaoGeral.drawio.svg "VisaoGeral")  
