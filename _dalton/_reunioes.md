@@ -53,3 +53,10 @@ Poderias usar como base o TCC acima.
 Estava com dificuldades para entender como usar o Buffer de Profundidade.  
 Fiz a figura para tentar entender sua dúvida.  
 ![VisaoGeral](VisaoGeral.drawio.svg "VisaoGeral")  
+
+## 2021-09-20
+
+Problemas com uso das Threads. Arrumou, alguns processos forma para o 2a plano.  
+Colocar no artigo comentar os tipos de vibrações.  
+O Apple Watch ... usar como retorno tátil.  
+Tentar identificar objetos ... ML para reconhecer objetos.  
