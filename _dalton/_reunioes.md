@@ -60,3 +60,10 @@ Problemas com uso das Threads. Arrumou, alguns processos forma para o 2a plano.
 Colocar no artigo comentar os tipos de vibrações.  
 O Apple Watch ... usar como retorno tátil.  
 Tentar identificar objetos ... ML para reconhecer objetos.  
+
+## 2021-09-27
+
+Fez o treinamento de objetos.  
+Reconheceu a cadeira, e não portas.  
+
+DataSet pronto
