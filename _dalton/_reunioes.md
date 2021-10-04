@@ -66,4 +66,16 @@ Tentar identificar objetos ... ML para reconhecer objetos.
 Fez o treinamento de objetos.  
 Reconheceu a cadeira, e não portas.  
 
-DataSet pronto
+DataSet pronto  
+
+Comentou que um exemplo pronto deixa um label virual no objeto real. Deve usar ancoras do ARKit.  
+Disse para usar este ...  
+
+## 2021-10-04
+
+Conseguiu usar o exmeplo pronto de label.  
+Já tem como dar um "tempo" de vida para as labels.  
+Melhorar o processo atual.  
+Fazer rotina para substituir o "clicar na tela".  
+Ter o retorno de distância e posição de obejtos.  
+Usar as "mesh" de obejtos já reconhecidos pelo Frameowrk.  
