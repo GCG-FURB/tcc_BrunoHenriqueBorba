@@ -79,3 +79,9 @@ Melhorar o processo atual.
 Fazer rotina para substituir o "clicar na tela".  
 Ter o retorno de distância e posição de obejtos.  
 Usar as "mesh" de obejtos já reconhecidos pelo Frameowrk.  
+
+## 2021-10-18
+
+Artigo, começar a escrever.  
+Trabalhou pouco .. uns testes com Apple Watch.  
+Pedi para focar no uso do LiDAR e ARKit Ancora.  
