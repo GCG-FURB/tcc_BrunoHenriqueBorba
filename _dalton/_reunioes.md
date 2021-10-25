@@ -85,3 +85,15 @@ Usar as "mesh" de obejtos já reconhecidos pelo Frameowrk.
 Artigo, começar a escrever.  
 Trabalhou pouco .. uns testes com Apple Watch.  
 Pedi para focar no uso do LiDAR e ARKit Ancora.  
+
+## 2021-10-25
+
+RealyKit x ARKit
+ScenView X ARView (LiDAR)
+ARView (LiDAR)
+ARView <https://developer.apple.com/documentation/arkit>
+<https://maxxfrazer.medium.com/realitykit-component-entity-bc59acb60728>
+
+Exemplos:
+ - detecção de planos / reconstrução da mesh: <https://developer.apple.com/documentation/arkit/content_anchors/visualizing_and_interacting_with_a_reconstructed_scene>  Tocando num objeto ele tenta identiicar qual objeto é.  
+ - tentando ter mais inforamções sobre a BBox do objeto (mas acha que nào usa o LiDAR): <https://developer.apple.com/documentation/arkit/content_anchors/scanning_and_detecting_3d_objects>  
