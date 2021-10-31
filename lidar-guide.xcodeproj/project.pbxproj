@@ -16,6 +16,20 @@
 		F1198C9426E13E5A0096A7BB /* ARData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1198C9326E13E5A0096A7BB /* ARData.swift */; };
 		F1198C9726E1420E0096A7BB /* Depth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1198C9526E1420E0096A7BB /* Depth.swift */; };
 		F1198C9826E1420E0096A7BB /* DepthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1198C9626E1420E0096A7BB /* DepthData.swift */; };
+		F135D50C27121385006D70BA /* ARMeshClassification+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F135D50B27121385006D70BA /* ARMeshClassification+Extension.swift */; };
+		F140915126E57A3200336D35 /* DispatchQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F140915026E57A3200336D35 /* DispatchQueue+Extensions.swift */; };
+		F149206626F7AE69002A8EC6 /* ObjectDetectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149206526F7AE69002A8EC6 /* ObjectDetectionService.swift */; };
+		F149206926F7AF13002A8EC6 /* YOLOv3Int8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F149206826F7AF13002A8EC6 /* YOLOv3Int8LUT.mlmodel */; };
+		F149206C26F7AFD5002A8EC6 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149206B26F7AFD5002A8EC6 /* UIDevice+Extension.swift */; };
+		F149206E26F7B190002A8EC6 /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149206D26F7B190002A8EC6 /* Throttler.swift */; };
+		F149207026F7B699002A8EC6 /* SCNVector3+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149206F26F7B699002A8EC6 /* SCNVector3+Extension.swift */; };
+		F149207226F7B817002A8EC6 /* BubbleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149207126F7B817002A8EC6 /* BubbleNode.swift */; };
+		F15E591D26FFD9F2000AB7C6 /* IndoorObjects.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F15E591C26FFD9F2000AB7C6 /* IndoorObjects.mlmodel */; };
+		F15E591F270128A2000AB7C6 /* IndoorMeh.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F15E591E270128A2000AB7C6 /* IndoorMeh.mlmodel */; };
+		F1850B332702918B00E98DBE /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1850B322702918B00E98DBE /* RoundedButton.swift */; };
+		F1850B352702923500E98DBE /* Scene+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1850B342702923500E98DBE /* Scene+Extension.swift */; };
+		F1850B372702936300E98DBE /* ARMeshGeometry+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1850B362702936300E98DBE /* ARMeshGeometry+Extension.swift */; };
+		F1850B39270293DD00E98DBE /* simd_float4x4+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1850B38270293DD00E98DBE /* simd_float4x4+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +44,20 @@
 		F1198C9326E13E5A0096A7BB /* ARData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARData.swift; sourceTree = "<group>"; };
 		F1198C9526E1420E0096A7BB /* Depth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Depth.swift; sourceTree = "<group>"; };
 		F1198C9626E1420E0096A7BB /* DepthData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthData.swift; sourceTree = "<group>"; };
+		F135D50B27121385006D70BA /* ARMeshClassification+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARMeshClassification+Extension.swift"; sourceTree = "<group>"; };
+		F140915026E57A3200336D35 /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
+		F149206526F7AE69002A8EC6 /* ObjectDetectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectionService.swift; sourceTree = "<group>"; };
+		F149206826F7AF13002A8EC6 /* YOLOv3Int8LUT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3Int8LUT.mlmodel; sourceTree = "<group>"; };
+		F149206B26F7AFD5002A8EC6 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		F149206D26F7B190002A8EC6 /* Throttler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttler.swift; sourceTree = "<group>"; };
+		F149206F26F7B699002A8EC6 /* SCNVector3+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extension.swift"; sourceTree = "<group>"; };
+		F149207126F7B817002A8EC6 /* BubbleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleNode.swift; sourceTree = "<group>"; };
+		F15E591C26FFD9F2000AB7C6 /* IndoorObjects.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = IndoorObjects.mlmodel; sourceTree = "<group>"; };
+		F15E591E270128A2000AB7C6 /* IndoorMeh.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = IndoorMeh.mlmodel; sourceTree = "<group>"; };
+		F1850B322702918B00E98DBE /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		F1850B342702923500E98DBE /* Scene+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scene+Extension.swift"; sourceTree = "<group>"; };
+		F1850B362702936300E98DBE /* ARMeshGeometry+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARMeshGeometry+Extension.swift"; sourceTree = "<group>"; };
+		F1850B38270293DD00E98DBE /* simd_float4x4+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "simd_float4x4+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +74,7 @@
 		F1198C7226E13D7C0096A7BB = {
 			isa = PBXGroup;
 			children = (
+				F140915026E57A3200336D35 /* DispatchQueue+Extensions.swift */,
 				F1198C7D26E13D7C0096A7BB /* lidar-guide */,
 				F1198C7C26E13D7C0096A7BB /* Products */,
 			);
@@ -62,14 +91,12 @@
 		F1198C7D26E13D7C0096A7BB /* lidar-guide */ = {
 			isa = PBXGroup;
 			children = (
-				F1198C9226E13DDC0096A7BB /* LidarDepth */,
-				F1198C7E26E13D7C0096A7BB /* AppDelegate.swift */,
-				F1198C8026E13D7C0096A7BB /* SceneDelegate.swift */,
-				F1198C8226E13D7C0096A7BB /* ViewController.swift */,
-				F1198C8426E13D7C0096A7BB /* Main.storyboard */,
-				F1198C8726E13D7D0096A7BB /* Assets.xcassets */,
-				F1198C8926E13D7D0096A7BB /* LaunchScreen.storyboard */,
 				F1198C8C26E13D7D0096A7BB /* Info.plist */,
+				F149206726F7AEAD002A8EC6 /* Controller */,
+				F149206426F7ADCF002A8EC6 /* App */,
+				F149206326F7ADA3002A8EC6 /* Service */,
+				F149206A26F7AFB5002A8EC6 /* Extension */,
+				F1198C9226E13DDC0096A7BB /* LidarDepth */,
 			);
 			path = "lidar-guide";
 			sourceTree = "<group>";
@@ -82,6 +109,53 @@
 				F1198C9326E13E5A0096A7BB /* ARData.swift */,
 			);
 			path = LidarDepth;
+			sourceTree = "<group>";
+		};
+		F149206326F7ADA3002A8EC6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F149206526F7AE69002A8EC6 /* ObjectDetectionService.swift */,
+				F149206D26F7B190002A8EC6 /* Throttler.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F149206426F7ADCF002A8EC6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F1198C7E26E13D7C0096A7BB /* AppDelegate.swift */,
+				F1198C8926E13D7D0096A7BB /* LaunchScreen.storyboard */,
+				F1198C8726E13D7D0096A7BB /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F149206726F7AEAD002A8EC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1850B322702918B00E98DBE /* RoundedButton.swift */,
+				F15E591E270128A2000AB7C6 /* IndoorMeh.mlmodel */,
+				F15E591C26FFD9F2000AB7C6 /* IndoorObjects.mlmodel */,
+				F1198C8426E13D7C0096A7BB /* Main.storyboard */,
+				F149206826F7AF13002A8EC6 /* YOLOv3Int8LUT.mlmodel */,
+				F1198C8226E13D7C0096A7BB /* ViewController.swift */,
+				F1198C8026E13D7C0096A7BB /* SceneDelegate.swift */,
+				F149207126F7B817002A8EC6 /* BubbleNode.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F149206A26F7AFB5002A8EC6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F149206B26F7AFD5002A8EC6 /* UIDevice+Extension.swift */,
+				F149206F26F7B699002A8EC6 /* SCNVector3+Extension.swift */,
+				F1850B342702923500E98DBE /* Scene+Extension.swift */,
+				F1850B362702936300E98DBE /* ARMeshGeometry+Extension.swift */,
+				F1850B38270293DD00E98DBE /* simd_float4x4+Extension.swift */,
+				F135D50B27121385006D70BA /* ARMeshClassification+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,11 +228,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F149206926F7AF13002A8EC6 /* YOLOv3Int8LUT.mlmodel in Sources */,
 				F1198C9426E13E5A0096A7BB /* ARData.swift in Sources */,
 				F1198C9826E1420E0096A7BB /* DepthData.swift in Sources */,
+				F149207026F7B699002A8EC6 /* SCNVector3+Extension.swift in Sources */,
+				F15E591D26FFD9F2000AB7C6 /* IndoorObjects.mlmodel in Sources */,
+				F149206C26F7AFD5002A8EC6 /* UIDevice+Extension.swift in Sources */,
+				F15E591F270128A2000AB7C6 /* IndoorMeh.mlmodel in Sources */,
+				F1850B372702936300E98DBE /* ARMeshGeometry+Extension.swift in Sources */,
+				F140915126E57A3200336D35 /* DispatchQueue+Extensions.swift in Sources */,
 				F1198C8326E13D7C0096A7BB /* ViewController.swift in Sources */,
 				F1198C7F26E13D7C0096A7BB /* AppDelegate.swift in Sources */,
+				F135D50C27121385006D70BA /* ARMeshClassification+Extension.swift in Sources */,
+				F149206E26F7B190002A8EC6 /* Throttler.swift in Sources */,
+				F1850B332702918B00E98DBE /* RoundedButton.swift in Sources */,
+				F1850B39270293DD00E98DBE /* simd_float4x4+Extension.swift in Sources */,
+				F1850B352702923500E98DBE /* Scene+Extension.swift in Sources */,
+				F149207226F7B817002A8EC6 /* BubbleNode.swift in Sources */,
 				F1198C8126E13D7C0096A7BB /* SceneDelegate.swift in Sources */,
+				F149206626F7AE69002A8EC6 /* ObjectDetectionService.swift in Sources */,
 				F1198C9726E1420E0096A7BB /* Depth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

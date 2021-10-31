@@ -7,6 +7,7 @@
 //
 
 import ARKit
+import AudioToolbox
 class Depth {
     private let arARSession:ARSession
     private var depthData:ARDepthData?
@@ -32,17 +33,26 @@ class Depth {
             let depthHeight = CVPixelBufferGetHeight(depth)
             CVPixelBufferLockBaseAddress(depth, CVPixelBufferLockFlags(rawValue: 0))
             let floatBuffer = unsafeBitCast(CVPixelBufferGetBaseAddress(depth), to: UnsafeMutablePointer<Float32>.self)
+            var isTooClose = false
+            // Esquerda
             for y in 0...depthHeight-1 {
                 for x in 0...depthWidth-1 {
                     let distanceAtXYPoint = floatBuffer[y*depthWidth+x]
+                    if (!isTooClose && distanceAtXYPoint < 0.5) {
+                        depthFloatData.setIsTooClose(value: true)
+                        isTooClose = true
+                    }
                     depthFloatData.set(x: x, y: y, floatData: distanceAtXYPoint)
                 }
             }
+            //let isTooClose = depthFloatData.getIsTooClose()
+            if (isTooClose){
+               // depthFloatData.setIsTooClose(value: true)
+                depthFloatData.getClearestDirection()
+            }
+
         }
-           
-       
-        
-        
         return depthFloatData
     }
+
 }
