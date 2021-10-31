@@ -52,3 +52,48 @@ Poderias usar como base o TCC acima.
 
 Estava com dificuldades para entender como usar o Buffer de Profundidade.  
 Fiz a figura para tentar entender sua dúvida.  
+![VisaoGeral](VisaoGeral.drawio.svg "VisaoGeral")  
+
+## 2021-09-20
+
+Problemas com uso das Threads. Arrumou, alguns processos forma para o 2a plano.  
+Colocar no artigo comentar os tipos de vibrações.  
+O Apple Watch ... usar como retorno tátil.  
+Tentar identificar objetos ... ML para reconhecer objetos.  
+
+## 2021-09-27
+
+Fez o treinamento de objetos.  
+Reconheceu a cadeira, e não portas.  
+
+DataSet pronto  
+
+Comentou que um exemplo pronto deixa um label virual no objeto real. Deve usar ancoras do ARKit.  
+Disse para usar este ...  
+
+## 2021-10-04
+
+Conseguiu usar o exmeplo pronto de label.  
+Já tem como dar um "tempo" de vida para as labels.  
+Melhorar o processo atual.  
+Fazer rotina para substituir o "clicar na tela".  
+Ter o retorno de distância e posição de obejtos.  
+Usar as "mesh" de obejtos já reconhecidos pelo Frameowrk.  
+
+## 2021-10-18
+
+Artigo, começar a escrever.  
+Trabalhou pouco .. uns testes com Apple Watch.  
+Pedi para focar no uso do LiDAR e ARKit Ancora.  
+
+## 2021-10-25
+
+RealyKit x ARKit
+ScenView X ARView (LiDAR)
+ARView (LiDAR)
+ARView <https://developer.apple.com/documentation/arkit>
+<https://maxxfrazer.medium.com/realitykit-component-entity-bc59acb60728>
+
+Exemplos:
+ - detecção de planos / reconstrução da mesh: <https://developer.apple.com/documentation/arkit/content_anchors/visualizing_and_interacting_with_a_reconstructed_scene>  Tocando num objeto ele tenta identiicar qual objeto é.  
+ - tentando ter mais inforamções sobre a BBox do objeto (mas acha que nào usa o LiDAR): <https://developer.apple.com/documentation/arkit/content_anchors/scanning_and_detecting_3d_objects>  
