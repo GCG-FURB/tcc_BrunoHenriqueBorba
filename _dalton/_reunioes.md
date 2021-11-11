@@ -97,3 +97,10 @@ ARView <https://developer.apple.com/documentation/arkit>
 Exemplos:
  - detecção de planos / reconstrução da mesh: <https://developer.apple.com/documentation/arkit/content_anchors/visualizing_and_interacting_with_a_reconstructed_scene>  Tocando num objeto ele tenta identiicar qual objeto é.  
  - tentando ter mais inforamções sobre a BBox do objeto (mas acha que nào usa o LiDAR): <https://developer.apple.com/documentation/arkit/content_anchors/scanning_and_detecting_3d_objects>  
+
+## 2021-11-10
+
+Conseguiu usar os recursos dos Frameworks do ARTKit e SceneKit para usar os recursos do LiDAR.  
+Pedi para manter o "modo debug", mostrando informações na tela para ajudar o desenvolvedor.  
+Disse que a referência ao objeto real é feita pela âncora virtual, e que as vezes fica "próxima" ao objeto real. No caso a âncora "busca" um plano para se fixar.  
+Disse que por ter muitas mensagens pensou em usar o som espacial para tentar orientar o usuário. O som espacial pode ser colocado na âncora, assim o som sairia do objeto real num espaço virtual.  
