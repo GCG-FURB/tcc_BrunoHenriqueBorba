@@ -104,3 +104,11 @@ Conseguiu usar os recursos dos Frameworks do ARTKit e SceneKit para usar os recu
 Pedi para manter o "modo debug", mostrando informações na tela para ajudar o desenvolvedor.  
 Disse que a referência ao objeto real é feita pela âncora virtual, e que as vezes fica "próxima" ao objeto real. No caso a âncora "busca" um plano para se fixar.  
 Disse que por ter muitas mensagens pensou em usar o som espacial para tentar orientar o usuário. O som espacial pode ser colocado na âncora, assim o som sairia do objeto real num espaço virtual.  
+
+## 2021-12-13
+
+Defesa do TCC  
+[tcc_BrunoHenriqueBorba_2021-12-13_defesa_video.mp4](tcc_BrunoHenriqueBorba_2021-12-13_defesa_video.mp4)  
+[tcc_BrunoHenriqueBorba_2021-12-13_defesa_ata.pdf](tcc_BrunoHenriqueBorba_2021-12-13_defesa_ata.pdf)  
+[tcc_BrunoHenriqueBorba_2021-12-13_defesa_Aurelio.pdf](tcc_BrunoHenriqueBorba_2021-12-13_defesa_Aurelio.pdf)  
+Prof. Miguel não fez anotações no texto do artigo, só as considerações na defesa durante sua fala.  
