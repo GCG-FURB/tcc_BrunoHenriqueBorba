@@ -1,4 +1,4 @@
-# TCC: em desenvolvimento
+# TCC: Trabalho de Conclusão de Curso
 
 ## Como rodar o projeto
 
